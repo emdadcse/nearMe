@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3149053224B63AD0089F110 /* nearMe_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3149051224B63AD0089F110 /* nearMe_icon@3x.png */; };
+		D3149054224B63AD0089F110 /* nearMe_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3149052224B63AD0089F110 /* nearMe_icon@2x.png */; };
+		D3149056224B65F80089F110 /* icon-present-location.png in Resources */ = {isa = PBXBuildFile; fileRef = D3149055224B65F80089F110 /* icon-present-location.png */; };
+		D3149058224B676F0089F110 /* icon-map.png in Resources */ = {isa = PBXBuildFile; fileRef = D3149057224B676F0089F110 /* icon-map.png */; };
+		D314905A224B683E0089F110 /* icon-nearme-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = D3149059224B683E0089F110 /* icon-nearme-pin.png */; };
+		D314905E224B7B910089F110 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D314905D224B7B910089F110 /* SplashScreen.swift */; };
+		D3149060224B80B60089F110 /* splash_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = D314905F224B80B60089F110 /* splash_screen.png */; };
+		D3149064224B86400089F110 /* near-restruent.png in Resources */ = {isa = PBXBuildFile; fileRef = D3149061224B863F0089F110 /* near-restruent.png */; };
+		D3149065224B86400089F110 /* near-police.png in Resources */ = {isa = PBXBuildFile; fileRef = D3149062224B863F0089F110 /* near-police.png */; };
+		D3149066224B86400089F110 /* near-atm.png in Resources */ = {isa = PBXBuildFile; fileRef = D3149063224B86400089F110 /* near-atm.png */; };
+		D3149068224B88F90089F110 /* splash-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = D3149067224B88F90089F110 /* splash-screen.png */; };
+		D3243D8C222D0A480080881B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3243D8B222D0A480080881B /* AppDelegate.swift */; };
+		D3243D8E222D0A480080881B /* MainMap_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3243D8D222D0A480080881B /* MainMap_VC.swift */; };
+		D3243D91222D0A480080881B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3243D8F222D0A480080881B /* Main.storyboard */; };
+		D3243D93222D0A4A0080881B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3243D92222D0A4A0080881B /* Assets.xcassets */; };
+		D3243D96222D0A4A0080881B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3243D94222D0A4A0080881B /* LaunchScreen.storyboard */; };
+		D3D1D9C622364F1D00B4DB76 /* MapLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1D9C522364F1D00B4DB76 /* MapLocationService.swift */; };
+		D3D1D9E422365DEF00B4DB76 /* quest@1024.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9C922365DEF00B4DB76 /* quest@1024.png */; };
+		D3D1D9E522365DEF00B4DB76 /* quest@120.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9CA22365DEF00B4DB76 /* quest@120.png */; };
+		D3D1D9E622365DEF00B4DB76 /* quest@152.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9CB22365DEF00B4DB76 /* quest@152.png */; };
+		D3D1D9E722365DEF00B4DB76 /* quest@167.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9CC22365DEF00B4DB76 /* quest@167.png */; };
+		D3D1D9E822365DEF00B4DB76 /* quest@180.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9CD22365DEF00B4DB76 /* quest@180.png */; };
+		D3D1D9E922365DEF00B4DB76 /* quest@20.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9CE22365DEF00B4DB76 /* quest@20.png */; };
+		D3D1D9EA22365DEF00B4DB76 /* quest@29.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9CF22365DEF00B4DB76 /* quest@29.png */; };
+		D3D1D9EB22365DEF00B4DB76 /* quest@40.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9D022365DEF00B4DB76 /* quest@40.png */; };
+		D3D1D9EC22365DEF00B4DB76 /* quest@58.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9D122365DEF00B4DB76 /* quest@58.png */; };
+		D3D1D9ED22365DEF00B4DB76 /* quest@60.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9D222365DEF00B4DB76 /* quest@60.png */; };
+		D3D1D9EE22365DEF00B4DB76 /* quest@76.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9D322365DEF00B4DB76 /* quest@76.png */; };
+		D3D1D9EF22365DEF00B4DB76 /* quest@80.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9D422365DEF00B4DB76 /* quest@80.png */; };
+		D3D1D9F022365DEF00B4DB76 /* quest@87.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9D522365DEF00B4DB76 /* quest@87.png */; };
+		D3D1D9F122365DEF00B4DB76 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9D622365DEF00B4DB76 /* close.png */; };
+		D3D1D9F222365DEF00B4DB76 /* current-location-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9D722365DEF00B4DB76 /* current-location-icon.png */; };
+		D3D1D9F322365DEF00B4DB76 /* direction.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9D822365DEF00B4DB76 /* direction.png */; };
+		D3D1D9F422365DEF00B4DB76 /* icon-ferry.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9D922365DEF00B4DB76 /* icon-ferry.png */; };
+		D3D1D9F522365DEF00B4DB76 /* icon-toll.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9DA22365DEF00B4DB76 /* icon-toll.png */; };
+		D3D1D9F622365DEF00B4DB76 /* icon-walking.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9DB22365DEF00B4DB76 /* icon-walking.png */; };
+		D3D1D9F722365DEF00B4DB76 /* map-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9DC22365DEF00B4DB76 /* map-icon.png */; };
+		D3D1D9F822365DEF00B4DB76 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9DD22365DEF00B4DB76 /* pin.png */; };
+		D3D1D9F922365DEF00B4DB76 /* poi-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9DE22365DEF00B4DB76 /* poi-pin.png */; };
+		D3D1D9FA22365DEF00B4DB76 /* poi-restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9DF22365DEF00B4DB76 /* poi-restaurant.png */; };
+		D3D1D9FB22365DEF00B4DB76 /* poi-starbucks.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9E022365DEF00B4DB76 /* poi-starbucks.png */; };
+		D3D1D9FD22365DEF00B4DB76 /* starbucks.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9E222365DEF00B4DB76 /* starbucks.png */; };
+		D3D1D9FE22365DEF00B4DB76 /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1D9E322365DEF00B4DB76 /* trash.png */; };
+		D3D1DA092237CC2F00B4DB76 /* atm.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1DA002237CC2F00B4DB76 /* atm.png */; };
+		D3D1DA0A2237CC2F00B4DB76 /* bs.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1DA012237CC2F00B4DB76 /* bs.png */; };
+		D3D1DA0B2237CC2F00B4DB76 /* hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1DA022237CC2F00B4DB76 /* hospital.png */; };
+		D3D1DA0C2237CC2F00B4DB76 /* park.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1DA032237CC2F00B4DB76 /* park.png */; };
+		D3D1DA0D2237CC2F00B4DB76 /* pp.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1DA042237CC2F00B4DB76 /* pp.png */; };
+		D3D1DA0E2237CC2F00B4DB76 /* ps.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1DA052237CC2F00B4DB76 /* ps.png */; };
+		D3D1DA0F2237CC2F00B4DB76 /* restuarant.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1DA062237CC2F00B4DB76 /* restuarant.png */; };
+		D3D1DA102237CC2F00B4DB76 /* school.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1DA072237CC2F00B4DB76 /* school.png */; };
+		D3D1DA112237CC2F00B4DB76 /* shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1DA082237CC2F00B4DB76 /* shopping.png */; };
+		D3D1DA132237DEF300B4DB76 /* NearMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1DA122237DEF300B4DB76 /* NearMe.swift */; };
+		D3D1DA152237E2ED00B4DB76 /* NearMeSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1DA142237E2ED00B4DB76 /* NearMeSearchService.swift */; };
+		D3D1DA182238D5B600B4DB76 /* AddressForAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1DA172238D5B600B4DB76 /* AddressForAnnotation.swift */; };
+		D3D1DA1E223A5FB300B4DB76 /* atm_text@3.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1DA1B223A5FB300B4DB76 /* atm_text@3.png */; };
+		D3D1DA1F223A5FB300B4DB76 /* atm_text.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1DA1C223A5FB300B4DB76 /* atm_text.png */; };
+		D3D1DA20223A5FB300B4DB76 /* atm_text@2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D1DA1D223A5FB300B4DB76 /* atm_text@2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3149051224B63AD0089F110 /* nearMe_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nearMe_icon@3x.png"; path = "../../../../../Documents/Em_resourcs/NearMe app resource/nearMe_icon@3x.png"; sourceTree = "<group>"; };
+		D3149052224B63AD0089F110 /* nearMe_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nearMe_icon@2x.png"; path = "../../../../../Documents/Em_resourcs/NearMe app resource/nearMe_icon@2x.png"; sourceTree = "<group>"; };
+		D3149055224B65F80089F110 /* icon-present-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-present-location.png"; sourceTree = "<group>"; };
+		D3149057224B676F0089F110 /* icon-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-map.png"; sourceTree = "<group>"; };
+		D3149059224B683E0089F110 /* icon-nearme-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-nearme-pin.png"; sourceTree = "<group>"; };
+		D314905D224B7B910089F110 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		D314905F224B80B60089F110 /* splash_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_screen.png; sourceTree = "<group>"; };
+		D3149061224B863F0089F110 /* near-restruent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "near-restruent.png"; sourceTree = "<group>"; };
+		D3149062224B863F0089F110 /* near-police.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "near-police.png"; sourceTree = "<group>"; };
+		D3149063224B86400089F110 /* near-atm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "near-atm.png"; sourceTree = "<group>"; };
+		D3149067224B88F90089F110 /* splash-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-screen.png"; sourceTree = "<group>"; };
+		D3243D88222D0A480080881B /* NearMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3243D8B222D0A480080881B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3243D8D222D0A480080881B /* MainMap_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMap_VC.swift; sourceTree = "<group>"; };
+		D3243D90222D0A480080881B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3243D92222D0A4A0080881B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3243D95222D0A4A0080881B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3243D97222D0A4A0080881B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D1D9C522364F1D00B4DB76 /* MapLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationService.swift; sourceTree = "<group>"; };
+		D3D1D9C922365DEF00B4DB76 /* quest@1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quest@1024.png"; sourceTree = "<group>"; };
+		D3D1D9CA22365DEF00B4DB76 /* quest@120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quest@120.png"; sourceTree = "<group>"; };
+		D3D1D9CB22365DEF00B4DB76 /* quest@152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quest@152.png"; sourceTree = "<group>"; };
+		D3D1D9CC22365DEF00B4DB76 /* quest@167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quest@167.png"; sourceTree = "<group>"; };
+		D3D1D9CD22365DEF00B4DB76 /* quest@180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quest@180.png"; sourceTree = "<group>"; };
+		D3D1D9CE22365DEF00B4DB76 /* quest@20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quest@20.png"; sourceTree = "<group>"; };
+		D3D1D9CF22365DEF00B4DB76 /* quest@29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quest@29.png"; sourceTree = "<group>"; };
+		D3D1D9D022365DEF00B4DB76 /* quest@40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quest@40.png"; sourceTree = "<group>"; };
+		D3D1D9D122365DEF00B4DB76 /* quest@58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quest@58.png"; sourceTree = "<group>"; };
+		D3D1D9D222365DEF00B4DB76 /* quest@60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quest@60.png"; sourceTree = "<group>"; };
+		D3D1D9D322365DEF00B4DB76 /* quest@76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quest@76.png"; sourceTree = "<group>"; };
+		D3D1D9D422365DEF00B4DB76 /* quest@80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quest@80.png"; sourceTree = "<group>"; };
+		D3D1D9D522365DEF00B4DB76 /* quest@87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quest@87.png"; sourceTree = "<group>"; };
+		D3D1D9D622365DEF00B4DB76 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		D3D1D9D722365DEF00B4DB76 /* current-location-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "current-location-icon.png"; sourceTree = "<group>"; };
+		D3D1D9D822365DEF00B4DB76 /* direction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = direction.png; sourceTree = "<group>"; };
+		D3D1D9D922365DEF00B4DB76 /* icon-ferry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ferry.png"; sourceTree = "<group>"; };
+		D3D1D9DA22365DEF00B4DB76 /* icon-toll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-toll.png"; sourceTree = "<group>"; };
+		D3D1D9DB22365DEF00B4DB76 /* icon-walking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-walking.png"; sourceTree = "<group>"; };
+		D3D1D9DC22365DEF00B4DB76 /* map-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-icon.png"; sourceTree = "<group>"; };
+		D3D1D9DD22365DEF00B4DB76 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		D3D1D9DE22365DEF00B4DB76 /* poi-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poi-pin.png"; sourceTree = "<group>"; };
+		D3D1D9DF22365DEF00B4DB76 /* poi-restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poi-restaurant.png"; sourceTree = "<group>"; };
+		D3D1D9E022365DEF00B4DB76 /* poi-starbucks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poi-starbucks.png"; sourceTree = "<group>"; };
+		D3D1D9E222365DEF00B4DB76 /* starbucks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starbucks.png; sourceTree = "<group>"; };
+		D3D1D9E322365DEF00B4DB76 /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
+		D3D1DA002237CC2F00B4DB76 /* atm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = atm.png; sourceTree = "<group>"; };
+		D3D1DA012237CC2F00B4DB76 /* bs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs.png; sourceTree = "<group>"; };
+		D3D1DA022237CC2F00B4DB76 /* hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospital.png; sourceTree = "<group>"; };
+		D3D1DA032237CC2F00B4DB76 /* park.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = park.png; sourceTree = "<group>"; };
+		D3D1DA042237CC2F00B4DB76 /* pp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pp.png; sourceTree = "<group>"; };
+		D3D1DA052237CC2F00B4DB76 /* ps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ps.png; sourceTree = "<group>"; };
+		D3D1DA062237CC2F00B4DB76 /* restuarant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restuarant.png; sourceTree = "<group>"; };
+		D3D1DA072237CC2F00B4DB76 /* school.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = school.png; sourceTree = "<group>"; };
+		D3D1DA082237CC2F00B4DB76 /* shopping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping.png; sourceTree = "<group>"; };
+		D3D1DA122237DEF300B4DB76 /* NearMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMe.swift; sourceTree = "<group>"; };
+		D3D1DA142237E2ED00B4DB76 /* NearMeSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeSearchService.swift; sourceTree = "<group>"; };
+		D3D1DA172238D5B600B4DB76 /* AddressForAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressForAnnotation.swift; sourceTree = "<group>"; };
+		D3D1DA1B223A5FB300B4DB76 /* atm_text@3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "atm_text@3.png"; path = "../../../drive-download-20190314T100817Z-001/atm_text@3.png"; sourceTree = "<group>"; };
+		D3D1DA1C223A5FB300B4DB76 /* atm_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = atm_text.png; path = "../../../drive-download-20190314T100817Z-001/atm_text.png"; sourceTree = "<group>"; };
+		D3D1DA1D223A5FB300B4DB76 /* atm_text@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "atm_text@2.png"; path = "../../../drive-download-20190314T100817Z-001/atm_text@2.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3243D85222D0A480080881B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3243D7F222D0A480080881B = {
+			isa = PBXGroup;
+			children = (
+				D3243D8A222D0A480080881B /* NearMe */,
+				D3243D89222D0A480080881B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3243D89222D0A480080881B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3243D88222D0A480080881B /* NearMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3243D8A222D0A480080881B /* NearMe */ = {
+			isa = PBXGroup;
+			children = (
+				D3D1DA162238D59400B4DB76 /* extensions */,
+				D3D1D9C722365DEF00B4DB76 /* assets */,
+				D3D1D9C222364E5000B4DB76 /* mapService */,
+				D3243D8B222D0A480080881B /* AppDelegate.swift */,
+				D3243D8D222D0A480080881B /* MainMap_VC.swift */,
+				D3243D8F222D0A480080881B /* Main.storyboard */,
+				D3243D92222D0A4A0080881B /* Assets.xcassets */,
+				D3243D94222D0A4A0080881B /* LaunchScreen.storyboard */,
+				D3243D97222D0A4A0080881B /* Info.plist */,
+				D314905D224B7B910089F110 /* SplashScreen.swift */,
+			);
+			path = NearMe;
+			sourceTree = "<group>";
+		};
+		D3D1D9C222364E5000B4DB76 /* mapService */ = {
+			isa = PBXGroup;
+			children = (
+				D3D1D9C522364F1D00B4DB76 /* MapLocationService.swift */,
+				D3D1DA122237DEF300B4DB76 /* NearMe.swift */,
+				D3D1DA142237E2ED00B4DB76 /* NearMeSearchService.swift */,
+			);
+			path = mapService;
+			sourceTree = "<group>";
+		};
+		D3D1D9C722365DEF00B4DB76 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				D3149067224B88F90089F110 /* splash-screen.png */,
+				D3149063224B86400089F110 /* near-atm.png */,
+				D3149062224B863F0089F110 /* near-police.png */,
+				D3149061224B863F0089F110 /* near-restruent.png */,
+				D314905F224B80B60089F110 /* splash_screen.png */,
+				D3D1DA1C223A5FB300B4DB76 /* atm_text.png */,
+				D3D1DA1D223A5FB300B4DB76 /* atm_text@2.png */,
+				D3D1DA1B223A5FB300B4DB76 /* atm_text@3.png */,
+				D3D1D9FF2237CC2F00B4DB76 /* 64 */,
+				D3D1D9C822365DEF00B4DB76 /* appIcon */,
+				D3D1D9D622365DEF00B4DB76 /* close.png */,
+				D3D1D9D722365DEF00B4DB76 /* current-location-icon.png */,
+				D3D1D9D822365DEF00B4DB76 /* direction.png */,
+				D3D1D9D922365DEF00B4DB76 /* icon-ferry.png */,
+				D3D1D9DA22365DEF00B4DB76 /* icon-toll.png */,
+				D3D1D9DB22365DEF00B4DB76 /* icon-walking.png */,
+				D3D1D9DC22365DEF00B4DB76 /* map-icon.png */,
+				D3D1D9DD22365DEF00B4DB76 /* pin.png */,
+				D3D1D9DE22365DEF00B4DB76 /* poi-pin.png */,
+				D3D1D9DF22365DEF00B4DB76 /* poi-restaurant.png */,
+				D3D1D9E022365DEF00B4DB76 /* poi-starbucks.png */,
+				D3D1D9E222365DEF00B4DB76 /* starbucks.png */,
+				D3D1D9E322365DEF00B4DB76 /* trash.png */,
+			);
+			name = assets;
+			path = ../../../../Downloads/Quest/Quest/assets;
+			sourceTree = "<group>";
+		};
+		D3D1D9C822365DEF00B4DB76 /* appIcon */ = {
+			isa = PBXGroup;
+			children = (
+				D3149059224B683E0089F110 /* icon-nearme-pin.png */,
+				D3149057224B676F0089F110 /* icon-map.png */,
+				D3149055224B65F80089F110 /* icon-present-location.png */,
+				D3149052224B63AD0089F110 /* nearMe_icon@2x.png */,
+				D3149051224B63AD0089F110 /* nearMe_icon@3x.png */,
+				D3D1D9C922365DEF00B4DB76 /* quest@1024.png */,
+				D3D1D9CA22365DEF00B4DB76 /* quest@120.png */,
+				D3D1D9CB22365DEF00B4DB76 /* quest@152.png */,
+				D3D1D9CC22365DEF00B4DB76 /* quest@167.png */,
+				D3D1D9CD22365DEF00B4DB76 /* quest@180.png */,
+				D3D1D9CE22365DEF00B4DB76 /* quest@20.png */,
+				D3D1D9CF22365DEF00B4DB76 /* quest@29.png */,
+				D3D1D9D022365DEF00B4DB76 /* quest@40.png */,
+				D3D1D9D122365DEF00B4DB76 /* quest@58.png */,
+				D3D1D9D222365DEF00B4DB76 /* quest@60.png */,
+				D3D1D9D322365DEF00B4DB76 /* quest@76.png */,
+				D3D1D9D422365DEF00B4DB76 /* quest@80.png */,
+				D3D1D9D522365DEF00B4DB76 /* quest@87.png */,
+			);
+			path = appIcon;
+			sourceTree = "<group>";
+		};
+		D3D1D9FF2237CC2F00B4DB76 /* 64 */ = {
+			isa = PBXGroup;
+			children = (
+				D3D1DA002237CC2F00B4DB76 /* atm.png */,
+				D3D1DA012237CC2F00B4DB76 /* bs.png */,
+				D3D1DA022237CC2F00B4DB76 /* hospital.png */,
+				D3D1DA032237CC2F00B4DB76 /* park.png */,
+				D3D1DA042237CC2F00B4DB76 /* pp.png */,
+				D3D1DA052237CC2F00B4DB76 /* ps.png */,
+				D3D1DA062237CC2F00B4DB76 /* restuarant.png */,
+				D3D1DA072237CC2F00B4DB76 /* school.png */,
+				D3D1DA082237CC2F00B4DB76 /* shopping.png */,
+			);
+			name = 64;
+			path = ../../../icons/64;
+			sourceTree = "<group>";
+		};
+		D3D1DA162238D59400B4DB76 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D3D1DA172238D5B600B4DB76 /* AddressForAnnotation.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3243D87222D0A480080881B /* NearMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3243D9A222D0A4A0080881B /* Build configuration list for PBXNativeTarget "NearMe" */;
+			buildPhases = (
+				D3243D84222D0A480080881B /* Sources */,
+				D3243D85222D0A480080881B /* Frameworks */,
+				D3243D86222D0A480080881B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearMe;
+			productName = NearMe;
+			productReference = D3243D88222D0A480080881B /* NearMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3243D80222D0A480080881B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sebpo;
+				TargetAttributes = {
+					D3243D87222D0A480080881B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D3243D83222D0A480080881B /* Build configuration list for PBXProject "NearMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3243D7F222D0A480080881B;
+			productRefGroup = D3243D89222D0A480080881B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3243D87222D0A480080881B /* NearMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3243D86222D0A480080881B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D1D9F022365DEF00B4DB76 /* quest@87.png in Resources */,
+				D3D1D9EE22365DEF00B4DB76 /* quest@76.png in Resources */,
+				D3D1D9EA22365DEF00B4DB76 /* quest@29.png in Resources */,
+				D3149056224B65F80089F110 /* icon-present-location.png in Resources */,
+				D3D1D9FB22365DEF00B4DB76 /* poi-starbucks.png in Resources */,
+				D3D1DA0D2237CC2F00B4DB76 /* pp.png in Resources */,
+				D3149068224B88F90089F110 /* splash-screen.png in Resources */,
+				D3D1D9F222365DEF00B4DB76 /* current-location-icon.png in Resources */,
+				D3243D96222D0A4A0080881B /* LaunchScreen.storyboard in Resources */,
+				D3149053224B63AD0089F110 /* nearMe_icon@3x.png in Resources */,
+				D3D1D9E922365DEF00B4DB76 /* quest@20.png in Resources */,
+				D3D1D9FE22365DEF00B4DB76 /* trash.png in Resources */,
+				D3D1DA1E223A5FB300B4DB76 /* atm_text@3.png in Resources */,
+				D3D1D9FD22365DEF00B4DB76 /* starbucks.png in Resources */,
+				D3D1D9E522365DEF00B4DB76 /* quest@120.png in Resources */,
+				D3D1D9F322365DEF00B4DB76 /* direction.png in Resources */,
+				D3D1DA0B2237CC2F00B4DB76 /* hospital.png in Resources */,
+				D3D1D9F522365DEF00B4DB76 /* icon-toll.png in Resources */,
+				D3D1D9F822365DEF00B4DB76 /* pin.png in Resources */,
+				D3149065224B86400089F110 /* near-police.png in Resources */,
+				D3D1DA0A2237CC2F00B4DB76 /* bs.png in Resources */,
+				D3149054224B63AD0089F110 /* nearMe_icon@2x.png in Resources */,
+				D3D1D9ED22365DEF00B4DB76 /* quest@60.png in Resources */,
+				D3D1DA1F223A5FB300B4DB76 /* atm_text.png in Resources */,
+				D3149058224B676F0089F110 /* icon-map.png in Resources */,
+				D3149066224B86400089F110 /* near-atm.png in Resources */,
+				D3D1DA20223A5FB300B4DB76 /* atm_text@2.png in Resources */,
+				D3D1D9E722365DEF00B4DB76 /* quest@167.png in Resources */,
+				D3D1DA0F2237CC2F00B4DB76 /* restuarant.png in Resources */,
+				D3D1D9E822365DEF00B4DB76 /* quest@180.png in Resources */,
+				D3D1D9F422365DEF00B4DB76 /* icon-ferry.png in Resources */,
+				D3243D93222D0A4A0080881B /* Assets.xcassets in Resources */,
+				D3D1D9EB22365DEF00B4DB76 /* quest@40.png in Resources */,
+				D3D1D9EF22365DEF00B4DB76 /* quest@80.png in Resources */,
+				D3D1D9F622365DEF00B4DB76 /* icon-walking.png in Resources */,
+				D3D1DA112237CC2F00B4DB76 /* shopping.png in Resources */,
+				D3D1D9F722365DEF00B4DB76 /* map-icon.png in Resources */,
+				D3D1D9E422365DEF00B4DB76 /* quest@1024.png in Resources */,
+				D3D1DA092237CC2F00B4DB76 /* atm.png in Resources */,
+				D3D1DA0E2237CC2F00B4DB76 /* ps.png in Resources */,
+				D3D1D9F922365DEF00B4DB76 /* poi-pin.png in Resources */,
+				D3D1D9E622365DEF00B4DB76 /* quest@152.png in Resources */,
+				D3149064224B86400089F110 /* near-restruent.png in Resources */,
+				D3D1DA0C2237CC2F00B4DB76 /* park.png in Resources */,
+				D3D1D9EC22365DEF00B4DB76 /* quest@58.png in Resources */,
+				D314905A224B683E0089F110 /* icon-nearme-pin.png in Resources */,
+				D3D1D9FA22365DEF00B4DB76 /* poi-restaurant.png in Resources */,
+				D3D1DA102237CC2F00B4DB76 /* school.png in Resources */,
+				D3D1D9F122365DEF00B4DB76 /* close.png in Resources */,
+				D3243D91222D0A480080881B /* Main.storyboard in Resources */,
+				D3149060224B80B60089F110 /* splash_screen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3243D84222D0A480080881B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3243D8E222D0A480080881B /* MainMap_VC.swift in Sources */,
+				D3243D8C222D0A480080881B /* AppDelegate.swift in Sources */,
+				D314905E224B7B910089F110 /* SplashScreen.swift in Sources */,
+				D3D1DA152237E2ED00B4DB76 /* NearMeSearchService.swift in Sources */,
+				D3D1DA182238D5B600B4DB76 /* AddressForAnnotation.swift in Sources */,
+				D3D1D9C622364F1D00B4DB76 /* MapLocationService.swift in Sources */,
+				D3D1DA132237DEF300B4DB76 /* NearMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3243D8F222D0A480080881B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3243D90222D0A480080881B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3243D94222D0A4A0080881B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3243D95222D0A4A0080881B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3243D98222D0A4A0080881B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3243D99222D0A4A0080881B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3243D9B222D0A4A0080881B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38BDQ9HMZX;
+				INFOPLIST_FILE = NearMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebpo.NearMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3243D9C222D0A4A0080881B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38BDQ9HMZX;
+				INFOPLIST_FILE = NearMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebpo.NearMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3243D83222D0A480080881B /* Build configuration list for PBXProject "NearMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3243D98222D0A4A0080881B /* Debug */,
+				D3243D99222D0A4A0080881B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3243D9A222D0A4A0080881B /* Build configuration list for PBXNativeTarget "NearMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3243D9B222D0A4A0080881B /* Debug */,
+				D3243D9C222D0A4A0080881B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3243D80222D0A480080881B /* Project object */;
+}
